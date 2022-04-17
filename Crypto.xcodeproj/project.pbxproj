@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0AC6FC280B6FD8000E160B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC6FB280B6FD8000E160B /* ListViewController.swift */; };
+		BA0AC6FE280B74EA000E160B /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC6FD280B74EA000E160B /* CoinViewController.swift */; };
+		BA0AC701280B7F08000E160B /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC6FF280B7F08000E160B /* CoinCell.swift */; };
+		BA0AC702280B7F08000E160B /* CoinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0AC700280B7F08000E160B /* CoinCell.xib */; };
+		BA0AC706280B93F3000E160B /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0AC705280B93F3000E160B /* SpinnerViewController.swift */; };
 		BAF44A14280AC9F000F39A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44A13280AC9F000F39A19 /* AppDelegate.swift */; };
 		BAF44A16280AC9F000F39A19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44A15280AC9F000F39A19 /* SceneDelegate.swift */; };
-		BAF44A18280AC9F000F39A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44A17280AC9F000F39A19 /* ViewController.swift */; };
 		BAF44A1B280AC9F000F39A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF44A19280AC9F000F39A19 /* Main.storyboard */; };
 		BAF44A1D280AC9F200F39A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF44A1C280AC9F200F39A19 /* Assets.xcassets */; };
 		BAF44A20280AC9F200F39A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF44A1E280AC9F200F39A19 /* LaunchScreen.storyboard */; };
+		BAF44A2B280B5F6600F39A19 /* CoinPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44A2A280B5F6600F39A19 /* CoinPresenter.swift */; };
+		BAF44A2D280B5FDD00F39A19 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44A2C280B5FDD00F39A19 /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0AC6FB280B6FD8000E160B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BA0AC6FD280B74EA000E160B /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		BA0AC6FF280B7F08000E160B /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		BA0AC700280B7F08000E160B /* CoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCell.xib; sourceTree = "<group>"; };
+		BA0AC705280B93F3000E160B /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		BAF44A10280AC9F000F39A19 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF44A13280AC9F000F39A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF44A15280AC9F000F39A19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAF44A17280AC9F000F39A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAF44A1A280AC9F000F39A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAF44A1C280AC9F200F39A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF44A1F280AC9F200F39A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF44A21280AC9F200F39A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF44A2A280B5F6600F39A19 /* CoinPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPresenter.swift; sourceTree = "<group>"; };
+		BAF44A2C280B5FDD00F39A19 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,43 @@
 			children = (
 				BAF44A13280AC9F000F39A19 /* AppDelegate.swift */,
 				BAF44A15280AC9F000F39A19 /* SceneDelegate.swift */,
-				BAF44A17280AC9F000F39A19 /* ViewController.swift */,
+				BAF44A28280B5F3E00F39A19 /* Model */,
+				BAF44A27280B5F2900F39A19 /* Views */,
+				BAF44A29280B5F4300F39A19 /* Presenter */,
 				BAF44A19280AC9F000F39A19 /* Main.storyboard */,
 				BAF44A1C280AC9F200F39A19 /* Assets.xcassets */,
 				BAF44A1E280AC9F200F39A19 /* LaunchScreen.storyboard */,
 				BAF44A21280AC9F200F39A19 /* Info.plist */,
 			);
 			path = Crypto;
+			sourceTree = "<group>";
+		};
+		BAF44A27280B5F2900F39A19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA0AC6FB280B6FD8000E160B /* ListViewController.swift */,
+				BA0AC705280B93F3000E160B /* SpinnerViewController.swift */,
+				BA0AC6FD280B74EA000E160B /* CoinViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAF44A28280B5F3E00F39A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAF44A2C280B5FDD00F39A19 /* Coin.swift */,
+				BA0AC6FF280B7F08000E160B /* CoinCell.swift */,
+				BA0AC700280B7F08000E160B /* CoinCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAF44A29280B5F4300F39A19 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BAF44A2A280B5F6600F39A19 /* CoinPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +169,7 @@
 			files = (
 				BAF44A20280AC9F200F39A19 /* LaunchScreen.storyboard in Resources */,
 				BAF44A1D280AC9F200F39A19 /* Assets.xcassets in Resources */,
+				BA0AC702280B7F08000E160B /* CoinCell.xib in Resources */,
 				BAF44A1B280AC9F000F39A19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF44A18280AC9F000F39A19 /* ViewController.swift in Sources */,
+				BA0AC6FE280B74EA000E160B /* CoinViewController.swift in Sources */,
 				BAF44A14280AC9F000F39A19 /* AppDelegate.swift in Sources */,
+				BA0AC701280B7F08000E160B /* CoinCell.swift in Sources */,
+				BAF44A2D280B5FDD00F39A19 /* Coin.swift in Sources */,
+				BA0AC706280B93F3000E160B /* SpinnerViewController.swift in Sources */,
+				BAF44A2B280B5F6600F39A19 /* CoinPresenter.swift in Sources */,
+				BA0AC6FC280B6FD8000E160B /* ListViewController.swift in Sources */,
 				BAF44A16280AC9F000F39A19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
